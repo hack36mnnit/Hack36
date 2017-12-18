@@ -1,5 +1,10 @@
 <?php require('includes/config.php'); 
 
+
+header('X-Frame-Options: SAMEORIGIN');
+header("X-XSS-Protection: 1; mode=block");
+header('X-Content-Type-Options: nosniff');
+
 //if not logged in redirect to login page
 if(!$user->is_logged_in()){ header('Location: login.php'); } 
 

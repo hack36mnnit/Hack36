@@ -1,7 +1,9 @@
 
 							<!--form-->
 							<?php 
-							header('X-Frame-Options: DENY');
+							header('X-Frame-Options: SAMEORIGIN');
+							header("X-XSS-Protection: 1; mode=block");
+							header('X-Content-Type-Options: nosniff');
 error_reporting(0);
 require('includes/config.php');
 

@@ -1,4 +1,7 @@
 <?php
+header('X-Frame-Options: SAMEORIGIN');
+header("X-XSS-Protection: 1; mode=block");
+header('X-Content-Type-Options: nosniff');
 error_reporting(0);
 //include config
 require_once('includes/config.php');
@@ -22,17 +25,17 @@ if(isset($_POST['submit'])){
 		$reg_status = $data['reg_status'];
 		if( $reg_status == "active" ){ 
 
-			$error[] = 'Wrong email or password combination.';
+			$error[] = 'Wrong email and password combination.';
 		 } else if( $reg_status == "inactive"){
-		 	$error[] = 'your account has not been activated. Check your email for activation link.';
+		 	$error[] = 'Your account has not been activated. Check your email for activation link.';
 		
 	}else if( $reg_status == "doesnotexist"){
-		 	$error[] = 'Wrong email or password combination.';
+		 	$error[] = 'Wrong email and password combination.';
 		
 	}
 	else
 	{
-		$error[] = 'Wrong email or password combination.';
+		$error[] = 'Wrong email and password combination.';
 	}
 	}
 
