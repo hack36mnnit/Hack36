@@ -300,7 +300,7 @@ h4 {
   border-radius:0px;
 }
 .navbar-default .navbar-nav > li > a{
-	font-size:14px !important;
+	font-size:18px !important;
 	text-transform:uppercase;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1410,3 +1410,4 @@ span.typed-cursor{
 .navbar-header #navbar-brand:hover{
 	color: whitesmoke;
 }
+
