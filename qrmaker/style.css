@@ -1,0 +1,149 @@
+*{
+  font-family: 'Lane - Narrow', arial;
+  color: #000;
+}
+
+#container{
+  width: 900px;
+  height: 1150px;
+  border: 1px solid #000;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+#header{
+  width: 100%;
+}
+#summit{
+  font-size: 25px;
+  float: right;
+  clear: both;
+  margin: -30px 240px 0 0;
+}
+#header img{
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#userinfo{
+  height: 400px;
+  width: 96%;
+  margin: 5% 2% 0 2%;
+  border: 2px dashed #000;
+}
+
+#details{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#qrcode{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#qrcode iframe{
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin: 30px 50px;
+}
+
+ul#mainul{
+  list-style: none;
+  margin: 50px 0 0 0;
+}
+
+#footer{
+  font-family: arial !important;
+  font-size: 15px;
+  padding: 10px;
+  text-align: justify;
+}
+
+#backgroundimg {
+  position: fixed;
+  display: block;
+  background-image: url('logo.PNG');
+  width: 100%;
+  height: 200px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.invoice-box{
+    max-width:800px;
+    margin: 30px auto;
+    padding:20px;
+    border:1px solid #eee;
+    box-shadow:0 0 10px rgba(0, 0, 0, .15);
+    font-size:16px;
+    line-height:24px;
+    font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color:#555;
+}
+
+.invoice-box table{
+    width:100%;
+    line-height:inherit;
+    text-align:left;
+}
+
+.invoice-box table td{
+    padding:5px;
+    vertical-align:top;
+}
+
+.invoice-box table tr td:nth-child(2){
+    text-align:right;
+}
+
+.invoice-box table tr.top table td{
+    padding-bottom:20px;
+}
+
+.invoice-box table tr.top table td.title{
+    font-size:45px;
+    line-height:45px;
+    color:#333;
+}
+
+.invoice-box table tr.information table td{
+    padding-bottom:40px;
+}
+
+.invoice-box table tr.heading td{
+    background:#eee;
+    border-bottom:1px solid #ddd;
+    font-weight:bold;
+}
+
+.invoice-box table tr.details td{
+    padding-bottom:20px;
+}
+
+.invoice-box table tr.item td{
+    border-bottom:1px solid #eee;
+}
+
+.invoice-box table tr.item.last td{
+    border-bottom:none;
+}
+
+#photobox{
+  border: 1px dashed #000;
+  width: 100px;
+  height: 120px;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#names ul{
+  list-style: none;
+  margin-left: 80px;
+}

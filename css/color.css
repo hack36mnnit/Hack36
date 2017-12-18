@@ -1,0 +1,145 @@
+
+
+.countdown.styled div span:first-child,
+.button:hover,
+.navbar-default,
+.owl-buttons div,
+.subscribe-area,
+.single-team .name,
+.single-price h1,
+.single-price a.button,
+.footer-area,
+.event-time {
+	background:rgb(46, 165, 72);
+}
+
+
+.sec-head h1,.single-price h2,.single-blog ul li{
+	color:#212121;
+}
+
+
+
+.home-area .text h2,
+.single-testimonials span,
+.single-team .top .over .speak-icon .fa,
+.venue-cont h1 span,.single-blog ul .fa,
+.conact-area .address ul li .fa {
+	color: rgb(46, 165, 72);
+}
+.conact-area .address ul li .fa {
+	color: rgb(10, 103, 216);
+}
+
+.event-time .fa {
+	color: #fff;
+}
+
+.nav-tabs > li.active,.nav-tabs > li:hover {
+	background: rgb(46, 165, 72);;
+}
+
+.event-dec ul li a:hover {
+    color: #3F51B5;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li.current > a {
+	color: #AFEEEE;
+}
+
+.sec-head h1 {
+	border-color: rgb(46, 165, 72);;
+}
+
+.about-dec ul li i {
+	color: rgb(46, 165, 72);;
+}
+
+.subscribe-area input[type="submit"] {
+	border-color: #3F51B5;
+}
+
+.subscribe-area input[type="submit"]:hover {
+    border-color: #e91e63 !important;
+}
+
+.single-team:hover .name,
+.single-price:hover a.button,
+.single-price:hover h1 {
+	background-color: #e91e63
+}
+
+.sec-head span,
+.single-testimonials .te-icon,
+.testimonials .owl-buttons div,
+.spek-social-icons li,
+.question span {
+	background: rgb(46, 165, 72);
+}
+
+
+.home-area .text h4,.home-area .text .lead,.button,.button:hover,.navbar-default .navbar-nav > li > a,.sec-head span .fa,.owl-buttons div,
+.subscribe-area h2,.single-testimonials .te-icon,.single-testimonials blockquote,.single-team .top .over p,.single-team .name,.venue-cont,
+.spek-social-icons li a,.separator-area,.single-price h1,.overlay-blue .sec-head h1,.overlay-blue .sec-head h5,.single-faq,.footer-area p,
+.single-blog .image .over .fa,.conact-area .address,.event-time{
+	color:#fff;
+}
+.venue-cont h1 span,.event-time h6:after{
+	background:#fff;
+}
+.sec-head h5{
+	color:#2e2e2e;
+}
+
+.about-dec .lead,.single-price p,.single-blog ul li a,.event-dec ul li a{
+	color:#808080;
+}
+.subscribe-area input[type="text"],.single-price ul{
+	color:#4c4c4c;
+}
+.contact-form input[type="text"],.contact-form textarea{
+	background: whitesmoke;
+}
+/*custom*/
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 3px rgb(226, 107, 47);
+  border: 1px solid rgb(226, 107, 47);
+}
+.single-team .top .over{
+	background: rgba(44,62,80,.78);
+}
+.overlay-blue,.venue-cont,.single-blog .image .over,.conact-area .address{
+	background: rgba(44,62,80,.7);
+}
+
+
+/* Color Typography */
+
+
+.button {
+	/*background: #ff9800;*/
+	background: rgb(226, 107, 47);
+}
+
+.button:hover,
+.button:focus {
+	/*background: #e91e63;*/
+	background-color: rgb(54, 160, 59);
+}
+
+.home-area .text h2 {
+	color: #fff;
+	text-transform: uppercase;
+}

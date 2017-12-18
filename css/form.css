@@ -1,0 +1,90 @@
+#register h2,p{
+    text-align: center;
+}
+
+/*check box styling*/
+/*#male {
+    display:none;
+}
+#male + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(../images/radio.png) left top no-repeat;
+    cursor:pointer;
+}
+#male:checked + label span {
+    background:url(../images/radio-on.png) 0px top no-repeat;
+}
+#female {
+    display:none;
+}
+#female + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(../images/radio.png) left top no-repeat;
+    cursor:pointer;
+}
+#female:checked + label span {
+    background:url(../images/radio-on.png) left top no-repeat;
+}
+*/
+/**/
+#register input{
+        border: 2px solid #c1c1c1;
+}
+
+#register input:focus{
+    border: 2px solid #81bf76;
+    box-shadow: 0px 0px 0px transparent;
+}
+#register input[type="submit"]{
+    border: none;
+}
+
+/*placeholder styling*/
+.form-control::-webkit-input-placeholder {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+.form-control::-moz-placeholder { 
+  color: #aaaaaa;
+  font-size: 14px;
+}
+.form-control:-ms-input-placeholder {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+.form-control:-moz-placeholder {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+/*label styling */
+
+.font-label{
+    font-size: 12px;
+    color: #3e3f3e;
+}
+
+/*submit button*/
+/*input[type="submit"]{
+    width: 100%;
+}*/
+select#city{
+    border: 2px solid #c1c1c1;
+}
+select#college{
+    border: 2px solid #c1c1c1;
+}
+select#city:focus{
+    box-shadow: inset 0px 0px 0px transparent;
+}
+select#college:focus{
+    box-shadow: inset 0px 0px 0px transparent;
+}

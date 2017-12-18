@@ -1,0 +1,29 @@
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+/*a {
+	color: #EF1F2F;
+	text-decoration: none;
+}*/
+
+.memberDetailCard{
+	background-color: #fff;
+	padding: 10px 20px;
+	margin: 10px 0px;
+	border: solid 1px #ccc;
+}
+
+.memberDetailHeader{
+	background-color: #fff;
+	padding: 10px 0px;
+	margin: 10px 0px;	
+	border: solid 1px #ccc;
+}
+
+.memberDashboard{
+	margin-top: 10px;
+	padding: 0 10px 10px 10px;
+	border: solid 1px #ccc;
+	background-color: #f1f1f1;
+}
