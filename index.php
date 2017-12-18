@@ -1,6 +1,7 @@
 
 							<!--form-->
 							<?php 
+							header('X-Frame-Options: DENY');
 error_reporting(0);
 require('includes/config.php');
 
