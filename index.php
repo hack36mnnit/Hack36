@@ -16,7 +16,7 @@
    if(strlen($_POST['fullname']) < 3){
    $error[] = 'Name is too short.';
    }
-   if(strlen($_POST['gender']) <= 0 OR $_POST['gender']==''){
+   if(strlen($_POST['gender']) <= 0 OR $_POST['gender']=='' OR ($_POST['gender']!="male" && $_POST['gender']!="female")){
    $error[] = 'Gender is not selected.';
    }
    if(strlen($_POST['city']) <=0 OR $_POST['city']=='select a city'){
@@ -212,7 +212,7 @@
                         <form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
                            <center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
                            <center><h3 style="color:#612d87">SIGNUP FOR HACK36</h3></center>
-                           <p>If you want to associate as a sponsor, drop us a mail at <a href="mailto:hackathon@mnnit.ac.in">hackathon@mnnit.ac.in</a>.</p>
+                           <!-- <p>If you want to associate as a sponsor, drop us a mail at <a href="mailto:hackathon@mnnit.ac.in">hackathon@mnnit.ac.in</a>.</p> -->
                            <p>Already a member? <a href='login.php'>Login</a></p>
                            <div class="form-group">
                               <!-- <input type="checkbox" id="tc" name="tc" value="check">  -->
