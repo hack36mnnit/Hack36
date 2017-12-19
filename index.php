@@ -201,16 +201,17 @@
    // require('layout/header.php');
    ?>
 <!-- About -->
-<section class="about-area" id="about">
+<section class="about-area" id="about" style="margin-top:50px;">
    <div class="container">
       <div class="row">
          <div class="col-md-6">
             <div class="about-dec">
                <div class="container">
                   <div class="row">
-                     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="border: solid #8080804d;border-width: 1px 1px 1px 1px;margin-top: 4%; padding:1%">
                         <form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
-                           <h1 style="font-weight: 600;">Signup for Hack 36 MNNIT</h1>
+                           <center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
+                           <center><h3 style="color:#612d87">SIGNUP FOR HACK36</h3></center>
                            <p>If you want to associate as a sponsor, drop us a mail at <a href="mailto:hackathon@mnnit.ac.in">hackathon@mnnit.ac.in</a>.</p>
                            <p>Already a member? <a href='login.php'>Login</a></p>
                            <div class="form-group">
@@ -246,7 +247,7 @@
                                        <label for="female" class="control-label"><span></span>Female</label> -->
                                     <select class="form-control input-lg" name="gender">
                                        <option id="male" value="male"  value="male" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>">Male</option>
-                                       <option id="female" " value="female" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>">Female</option>
+                                       <option id="female" value="female" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>">Female</option>
                                     </select>
                                  </div>
                               </div>
@@ -315,7 +316,7 @@
                               <input type="text" name="resume" id="resume" class="form-control input-lg" placeholder="Your Resume Link" value="<?php if(isset($error)){ echo $_POST['github']; } ?>" tabindex="10">
                            </div>
                            <div class="row">
-                              <div class="col-xs-12 col-md-12"><input type="submit" name="submit" value="Register" class="btn btn-success btn-block btn-lg" tabindex="11"></div>
+                              <center><div class="col-xs-12 col-md-12" style="margin-botton:5px;"><input type="submit" name="submit" value="Register" class="btn" style="background-color:#612d87;color:white;widht:15%;border-radius:0px;" tabindex="11"></div><center>
                            </div>
                         </form>
                      </div>

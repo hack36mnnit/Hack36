@@ -14,16 +14,6 @@ header('X-Content-Type-Options: nosniff');
     
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
   <script src="./js/jquery.js"></script>
-    <script type="text/javascript">
-$(document).ready(function () {
-    //Disable full page
-    $("body").on("contextmenu",function(e){
-        return false;
-    });
-    
-   
-});
-</script> 
 </head>
 
   <!-- <div class="container"> -->   
