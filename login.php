@@ -48,16 +48,20 @@ $title = 'Login Page';
 //require('layout/header.php'); 
 include('header.php');
 ?>
-
+<div class="top" style="overflow-x:hidden">
 <link rel="stylesheet" type="text/css" href="css/form.css">
-<div class="container">
+<section class="about-area" id="about" style="margin-top:5%;">
+<div class="container" >
 
 	<div class="row">
 
-	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="border-width: 1px 1px 1px 1px; padding:1%">
 			<form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
-				<h2 style="text-align:center">Login to Hack 36 MNNIT</h2>
-				<p><a href='./'>Back to home page</a></p>
+				<center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
+				
+				<center>
+				<h3 style="text-align:center ; color:#612d87">LOGIN TO HACK36</h3>
+				<p><a href='./'>New? Register Here</a></p>
 				<hr>
 
 				<?php
@@ -90,23 +94,24 @@ include('header.php');
 
 				<div class="form-group">
 					<label class="control-label" for="email">Email<span class="text-danger">*</span></label>
-					<input type="email" name="email" id="email" class="form-control input-lg" placeholder="User Email" value="<?php if(isset($error)){ echo $_POST['email']; } ?>" tabindex="1">
+					<input type="email" name="email" id="email" class="form-control" style="width:60%" placeholder="Email" value="<?php if(isset($error)){ echo $_POST['email']; } ?>" tabindex="1">
 				</div>
 
 				<div class="form-group">
 					<label class="control-label" for="password">Password<span class="text-danger">*</span></label>
-					<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="3">
+					<input type="password" name="password" id="password" class="form-control" style="width:60%" placeholder="Password" tabindex="3">
 				</div>
 				
 				<div class="row" style="margin-bottom:5px">
-					<div class="col-xs-9 col-sm-9 col-md-9">
+					
 						 <a href='reset.php' class="small">Forgot your Password?</a>
-					</div>
+					
 				</div>
 	
 				<div class="row">
-					<div class="col-xs-12 col-md-12"><input type="submit" name="submit" value="Login" class="btn btn-success btn-block btn-lg" tabindex="5"></div>
+                              <center><div class="col-xs-12 col-md-12" style="margin-botton:5px;"><input type="submit" name="submit" value="Login" class="btn" style="background-color:#612d87;color:white;widht:15%;border-radius:0px;" tabindex="11"></div><center>
 				</div>
+			</center>
 			</form>
 		</div>
 	</div>
@@ -114,13 +119,30 @@ include('header.php');
 
 
 </div>
-
+</section>
 
 <br><br>
+
+
+<script>
+   
+   var func = function(){
+      var h = $('#navigation').height();
+      //console.log(h,nav);
+      var margin = h + (screen.height*3/100) ;
+      //console.log(margin);
+      document.getElementById('about').style.marginTop = margin + "px" ;
+   }
+
+   $(document).ready(func);
+
+   window.resize = func;
+
+</script>
 </div>
 					
 
-
+</div>
 <?php 
 	include('footer.php');
 ?>

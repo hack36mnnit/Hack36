@@ -201,14 +201,14 @@
    // require('layout/header.php');
    ?>
 <!-- About -->
-<section class="about-area" id="about" style="margin-top:50px;">
+<section class="about-area" id="about" style="margin-top:5%;">
    <div class="container">
       <div class="row">
          <div class="col-md-6">
             <div class="about-dec">
                <div class="container">
                   <div class="row">
-                     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="border: solid #8080804d;border-width: 1px 1px 1px 1px;margin-top: 4%; padding:1%">
+                     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="border: solid #8080804d;border-width: 1px 1px 1px 1px; padding:1%">
                         <form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
                            <center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
                            <center><h3 style="color:#612d87">SIGNUP FOR HACK36</h3></center>
@@ -353,6 +353,21 @@
       </div>
    </div>
 </section>
+<script>
+   
+   var func = function(){
+      var h = $('#navigation').height();
+      //console.log(h,nav);
+      var margin = h + (screen.height*3/100) ;
+      //console.log(margin);
+      document.getElementById('about').style.marginTop = margin + "px" ;
+   }
+
+   $(document).ready(func);
+
+   window.resize = func;
+
+</script>
 <?php
    include('footer.php');
    ?>
