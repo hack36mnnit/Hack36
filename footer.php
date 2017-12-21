@@ -1,4 +1,53 @@
 
+<<<<<<< HEAD
+=======
+		
+		<!-- Footer -->
+		<footer id="footer" style="background-color:#35414c">
+		    <div class="row farea"  style="margin-right:0px;">
+		        <div class="col-md-3 col-md-offset-0" style="margin-top:2%;float:left">
+		        	<center><img style="padding-top: 5%;width:35%" src="./images/logo.png" hspace="9" ></center>
+		        </div>
+		    	<div class="col-md-3 col-md-offset-0" style="margin-top:2%">
+		    		<center>
+		    	  <div>
+					<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:817-597-1936"><span style="color:white;padding:10px;font-family:Raleway">+91-817-597-1936</span></a><br><br>
+		    	  </div>	
+		    	  <div>
+				  	<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:964-803-4543"><span style="color:white;padding:10px;font-family:Raleway">+91-964-803-4543<span></a><br><br>
+				  	<!-- <img src="http://renaissance.ecellmnnit.in/images/social/phonecall.png"><span style="padding-left: 10px;">+91-790-580-4733</span>  -->
+		    	   </div>
+		    	   <div>
+				  	<span class="glyphicon glyphicon-envelope" style="color:grey"></span><a href="mailto:hackathon@mnnit.ac.in"><span style="color:white;padding:10px;font-family:Raleway">hackathon@mnnit.ac.in</span></a><br><br>
+				  	<!-- <img src="http://renaissance.ecellmnnit.in/images/social/phonecall.png"><span style="padding-left: 10px;">+91-790-580-4733</span>  -->
+		    	   </div>	
+		    	</center>
+		    	</div>
+		    	<div class="col-md-3 col-md-offset-0" style="margin-top:2%">
+		    	  <div style="padding-left: 25px">
+					
+					<center>
+		    	    <h6 style="color:#fff; font-family:Raleway" >FOLLOW US</h6>
+		            <a href="https://www.facebook.com/hack36mnnit" target="_blank"><img src="./images/ecell_facebook_logo.png"></a>
+				    </center>
+				   </div> 
+		    	</div>
+		    	<div class="col-md-3 col-md-offset-0" style="margin-top:2%">
+		    	  <div style="padding-left: 25px">
+					
+					<center>
+		    	    <h6 style="color:#fff; font-family:Raleway" >MORE</h6>
+		            <a href="http://www.mnnit.ac.in" target="_blank" style="color:grey; ">MNNIT Allahabad</a>
+				    </center>
+				   </div> 
+		    	</div>
+		    </div>
+		    <hr style="width:85%;margin-left:7.5%;color:grey">
+		    <div class="footer-area text-center" style="background-color:#35414c">
+			    <p>&copy; <a href="https://www.hack36.com" target="_blank"> Hack 36 MNNIT</a> All rights reserved</p>
+		    </div>
+		</footer>
+>>>>>>> b423413c2ac8b11b1f83c4c3be139d509b764bb5
 
 <!-- Footer -->
 <footer id="footer">
