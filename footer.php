@@ -8,17 +8,17 @@
 		        <div class="col-md-3 col-md-offset-0" style="margin-top:2%;float:left">
 		        	<center><img style="padding-top: 5%;width:35%" src="./images/logo.png" hspace="9" ></center>
 		        </div>
-		    	<div class="col-md-3 col-md-offset-0" style="margin-top:2%">
+		    	<div class="col-md-3 col-md-offset-0" style="margin-top:2%;color:grey">
 		    		<center>
 		    	  <div>
-					<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:817-597-1936"><span style="color:white;padding:10px;font-family:Raleway">+91-817-597-1936</span></a><br><br>
+					<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:817-597-1936"><span style="color:grey;padding:10px;font-family:Raleway">+91-817-597-1936</span></a><br><br>
 		    	  </div>	
 		    	  <div>
-				  	<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:964-803-4543"><span style="color:white;padding:10px;font-family:Raleway">+91-964-803-4543<span></a><br><br>
+				  	<span class="glyphicon glyphicon-earphone" style="color:grey"></span><a href="tel:964-803-4543"><span style="color:grey;padding:10px;font-family:Raleway">+91-964-803-4543<span></a><br><br>
 				  	<!-- <img src="http://renaissance.ecellmnnit.in/images/social/phonecall.png"><span style="padding-left: 10px;">+91-790-580-4733</span>  -->
 		    	   </div>
 		    	   <div>
-				  	<span class="glyphicon glyphicon-envelope" style="color:grey"></span><a href="mailto:hackathon@mnnit.ac.in"><span style="color:white;padding:10px;font-family:Raleway">hackathon@mnnit.ac.in</span></a><br><br>
+				  	<span class="glyphicon glyphicon-envelope" style="color:grey"></span><a href="mailto:hackathon@mnnit.ac.in"><span style="color:grey;padding:10px;font-family:Raleway">hackathon@mnnit.ac.in</span></a><br><br>
 				  	<!-- <img src="http://renaissance.ecellmnnit.in/images/social/phonecall.png"><span style="padding-left: 10px;">+91-790-580-4733</span>  -->
 		    	   </div>	
 		    	</center>
