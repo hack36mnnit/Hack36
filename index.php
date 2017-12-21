@@ -25,7 +25,7 @@
    if(strlen($_POST['college']) <=0 OR $_POST['college']=='select a city'){
    $error[] = 'College is not selected.';
    }
-   if(strlen($_POST['mobile']) < 10){
+   if(strlen($_POST['mobile']) < 10 ){
    $error[] = 'Mobile number is incorrect.';
    }
    if(strlen($_POST['password']) < 3){
@@ -210,7 +210,7 @@
                   <div class="row">
                      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="border: solid #8080804d;border-width: 1px 1px 1px 1px; padding:1%">
                         <form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
-                           <center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
+                           <center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:30px"></img></center>
                            <center><h3 style="color:#612d87">SIGNUP FOR HACK36</h3></center>
                            <!-- <p>If you want to associate as a sponsor, drop us a mail at <a href="mailto:hackathon@mnnit.ac.in">hackathon@mnnit.ac.in</a>.</p> -->
                            <p>Already a member? <a href='login.php'>Login</a></p>

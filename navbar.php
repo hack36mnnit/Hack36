@@ -13,12 +13,8 @@
 		</div>
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<<<<<<< HEAD
-			<ul class="nav navbar-nav">
-				<li><img src="" alt="logo"></li>
-=======
+
 			<ul class="nav navbar-nav navbar-right">
->>>>>>> b423413c2ac8b11b1f83c4c3be139d509b764bb5
 				<li><a href="./" style="text-align:center">Home</a></li>
 				 
 				 
