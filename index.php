@@ -223,14 +223,14 @@
                            <?php
                               //check for any errors
                               if(isset($error)){
-                              	foreach($error as $error){
-                              		echo '<p class="bg-danger">'.$error.'</p>';
-                              	}
+                                 foreach($error as $error){
+                                    echo '<p class="bg-danger">'.$error.'</p>';
+                                 }
                               }
                               
                               //if action is joined show sucess
                               if(isset($_GET['action']) && $_GET['action'] == 'joined'){
-                              	echo "<h2 class='bg-success'>Registration successful, please check your email to activate your account.</h2>";
+                                 echo "<h2 class='bg-success'>Registration successful, please check your email to activate your account.</h2>";
                               }
                               ?>
                            <div class="form-group">
@@ -238,10 +238,10 @@
                               <input type="text" name="fullname" id="fullname" class="form-control input-lg" placeholder="Full Name" value="<?php if(isset($error)){ echo $_POST['fullname']; } ?>" tabindex="1" style="text-align: left">
                            </div>
                            <div class="row">
-                              <div class="col-lg-4 col-md-4 col-sm-3 col-xs-2">
+                              <div class="col-lg-4 col-md-4 col-sm-5 col-xs-6">
                                  <div class="form-group">
                                     <label class="control-label">Gender<span class="text-danger"> *</span></label><br>
-                                    <!-- 		          <input id="male" type="radio" name="gender" value="male" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>" tabindex="2" checked>
+                                    <!--               <input id="male" type="radio" name="gender" value="male" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>" tabindex="2" checked>
                                        <label for="male" class="control-label"><span></span>Male</label>
                                        <input id="female" type="radio" name="gender" value="female" value="<?php if(isset($error)){ echo $_POST['gender']; } ?>" tabindex="2">
                                        <label for="female" class="control-label"><span></span>Female</label> -->
@@ -251,7 +251,7 @@
                                     </select>
                                  </div>
                               </div>
-                              <div class="col-lg-8 col-md-8 col-sm-9 col-xs-10">
+                              <div class="col-lg-8 col-md-8 col-sm-7 col-xs-6">
                                  <div class="form-group">
                                     <label class="control-label">City<span class="text-danger"> *</span></label>
                                     <br>
@@ -262,29 +262,29 @@
                               </div>
                            </div>
                            <div class="row">
-                           		<div class="col-lg-6 col-md-6 col-sm-12">
-		                           <div class="form-group">
-		                              <label class="control-label">College<span class="text-danger"> *</span></label>
-		                              <br>
-		                              <select id="college" name="college" class="form-control input-lg" disabled="disabled">
-		                                 value="<?php if(isset($error)){ echo $_POST['college']; } ?>" tabindex="3">
-		                                 <option></option>
-		                              </select>
-		                           </div>                               			
-                           		</div>
-                         		<div class="col-lg-6 col-md-6 col-sm-12">
-		                           <div class="form-group">
-		                              <label class="control-label" for="mobile" style="">Mobile<span class="text-danger">* </span></label>
-		                              <input class="form-control input-lg" type="number" id="mobile" name="mobile" placeholder="10 Digits Mobile Number" maxlength="10" minlength="10" digits="true"  value="<?php if(isset($error)){ echo $_POST['mobile']; } ?>" >   
-		                           </div>                         			
-                         		</div>
-                           	</div>
-                           	<div class="row">
-                           		<div class="col-lg-12">
-                           			<label class="faculty" class="control-label" style="font-size:16px;text-decoration: underline;">Couldn't find your college or city?&nbsp;&nbsp;<a href="addCityCollege.php">Request Here</a></label>
-                           		</div>
-                           		<hr height="5px">
-                           	</div>
+                                 <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="form-group">
+                                    <label class="control-label">College<span class="text-danger"> *</span></label>
+                                    <br>
+                                    <select id="college" name="college" class="form-control input-lg" disabled="disabled">
+                                       value="<?php if(isset($error)){ echo $_POST['college']; } ?>" tabindex="3">
+                                       <option></option>
+                                    </select>
+                                 </div>                                       
+                                 </div>
+                              <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="form-group">
+                                    <label class="control-label" for="mobile" style="">Mobile<span class="text-danger">* </span></label>
+                                    <input class="form-control input-lg" type="number" id="mobile" name="mobile" placeholder="10 Digits Mobile Number" maxlength="10" minlength="10" digits="true"  value="<?php if(isset($error)){ echo $_POST['mobile']; } ?>" >   
+                                 </div>                                 
+                              </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12">
+                                    <label class="faculty" class="control-label" style="font-size:16px;text-decoration: underline;">Couldn't find your college or city?&nbsp;&nbsp;<a href="addCityCollege.php">Request Here</a></label>
+                                 </div>
+                                 <hr height="5px">
+                              </div>
 
 
                            <div class="form-group">
@@ -292,18 +292,18 @@
                               <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" value="<?php if(isset($error)){ echo $_POST['email']; } ?>" tabindex="6">
                            </div>
                            <div class="row">
-                           		<div class="col-lg-6 col-md-6 col-sm-12">
-		                           <div class="form-group">
-		                              <label class="control-label" for="password">Password <span class="text-danger">*</span></label>
-		                              <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="7">
-		                           </div>                        
-                           		</div>
-                           		<div class="col-lg-6 col-md-6 col-sm-12">
-		                           <div class="form-group">
-		                              <label class="control-label" for="passwordConfirm">Confirm Password <span class="text-danger">*</span></label>
-		                              <input type="password" name="passwordConfirm" id="passwordConfirm" class="form-control input-lg" placeholder="Confirm Password" tabindex="8">
-		                           </div>                           			
-                           		</div>
+                                 <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="form-group">
+                                    <label class="control-label" for="password">Password <span class="text-danger">*</span></label>
+                                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="7">
+                                 </div>                        
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="form-group">
+                                    <label class="control-label" for="passwordConfirm">Confirm Password <span class="text-danger">*</span></label>
+                                    <input type="password" name="passwordConfirm" id="passwordConfirm" class="form-control input-lg" placeholder="Confirm Password" tabindex="8">
+                                 </div>                                    
+                                 </div>
                            </div>
 
 
