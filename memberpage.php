@@ -31,6 +31,21 @@ $title = "Dashboard | Hack 36 | MNNIT Allahabad";
 include('header.php');
 
 ?>
+<script>
+   
+   var func = function(){
+      var h = $('#navigation').height();
+      //console.log(h,nav);
+      var margin = h + (screen.height*3/100) ;
+      //console.log(margin);
+      document.getElementById('main').style.marginTop = margin + "px" ;
+   }
+
+   $(document).ready(func);
+
+   window.resize = func;
+
+</script>
 <style>
 	#mask{
 		width:100%;
@@ -70,6 +85,7 @@ include('header.php');
     height: 455;
 }
 
+
 	<link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css">
 </style>
 <div id="mask">
@@ -78,7 +94,7 @@ include('header.php');
 	</div>
 </div>
 
-<div class="container">
+<div class="container" id="main">
 
 	<div class="row">
 
@@ -245,6 +261,7 @@ For Non-vegetarians, food outlets are available outside the campus, like Real Bi
 	</div>
 <br>
 <br>
+
 </div>
 
 
