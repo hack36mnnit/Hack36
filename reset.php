@@ -147,21 +147,38 @@ To reset your password, click the below link:
 }
 
 //define page title
-$title = 'Reset Account';
+$title = 'Reset Password';
 	include('header.php');
 //include header template
 //require('layout/header.php');
 ?>
 <link rel="stylesheet" type="text/css" href="css/form.css">
+<script>
+   
+   var func = function(){
+      var h = $('#navigation').height();
+      //console.log(h,nav);
+      var margin = h + (screen.height*3/100) ;
+      //console.log(margin);
+      document.getElementById('main').style.marginTop = margin + "px" ;
+   }
 
-<div class="container">
+   $(document).ready(func);
+
+   window.resize = func;
+
+</script>
+<div class="container" id="main">
 
 	<div class="row">
 
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<form id="register" role="form" method="post" action="" autocomplete="off" name="myform" onsubmit="DoSubmit();">
-				<h2>Reset Password</h2>
-				<p><a href='login.php'>Back to login page</a></p>
+				<center>
+					<center><img src="images/hack36footer.png" style="height:15%; width:35%; margin-top:15px"></img></center>
+					<h3 style="color:#612d87">RESET PASSWORD</h3>
+				</center>
+				<p><a href='login.php'>Login</a></p>
 				<hr>
 
 				<?php
@@ -190,10 +207,10 @@ $title = 'Reset Account';
 					<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email" value="" tabindex="1">
 				</div>
 
-				<hr>
 				<div class="row">
-					<div class="col-xs-12 col-md-12"><input type="submit" name="submit" value="Sent Reset Link" class="btn btn-success btn-block btn-lg" tabindex="2"></div>
-
+					<center>
+					<div class="col-xs-12 col-md-12"><input type="submit" style="background-color:#612d87" name="submit" value="Send Reset Link" class="btn btn-success" tabindex="2"></div>
+				</center>
 				</div>
 			</form>
 		</div>
